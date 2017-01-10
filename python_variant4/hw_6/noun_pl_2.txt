@@ -1,0 +1,10 @@
+﻿Koulut
+Kassit
+Linnut
+Pihat
+Merkit
+Nojat
+Maat
+Kulhot
+Hyllyt
+Sohvat

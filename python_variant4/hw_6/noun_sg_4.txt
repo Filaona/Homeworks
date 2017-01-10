@@ -1,0 +1,10 @@
+﻿Teatteri
+Ooppera
+Sairaala
+Ravintola
+Joulukuu
+Opettaja
+Papukaija
+Muusikko
+Salaatti
+Sukunimi

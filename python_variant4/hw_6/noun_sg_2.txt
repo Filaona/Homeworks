@@ -1,0 +1,10 @@
+﻿Koulu
+Kassi
+Perhe
+Piha
+Merkki
+Kirje
+Noja
+Kulho
+Maa
+Hylly
