@@ -1,6 +1,6 @@
 import re
 
-def split_text(file_name):
+def text(file_name):
     file = open(file_name, 'r', encoding = 'utf-8')
     string = file.read()
     file.close()
@@ -16,7 +16,7 @@ def check(string):
         output(elem)
 
 def main():
-    string = split_text(input('Введите название файла: '))
+    string = text(input('Введите название файла: '))
     check(string)
 
 if __name__ == '__main__':
