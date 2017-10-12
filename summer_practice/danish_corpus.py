@@ -98,21 +98,6 @@ def write_results(query,results,cols):
             writer.writerow([i]+x)
 
 
-class TestMethods(unittest.TestCase):
-    def test1(self):
-        self.assertEqual(('<Response [200]>'), str(get_page(query='bezug', n_results='100', corpus='kern')))
-
-    def test2(self):
-        self.assertIs(list, type(get_results(page=get_page(query='bezug',corpus='kern',n_results='100'),
-                                             write=False, kwic=True,query='bezug', n_results='100')))
-
-    def test3(self):
-        r = main('Mutter',kwic=False,write=True)
-        filelist = os.listdir()
-        self.assertIn('deu_search_Mutter.csv',filelist)
-        os.remove('deu_search_Mutter.csv')
-
-
 
 def for_bool(x):
     if x == 'True':
@@ -132,7 +117,6 @@ def main(query, corpus, tag, n_results, kwic, write):
 
 
 if __name__ == '__main__':
-    #unittest.main()
     args = sys.argv[1:]
     parser = argparse.ArgumentParser()
     parser.add_argument('corpus', type=str)
