@@ -173,7 +173,6 @@ def main(query, corpus, tag, n_results, kwic, write):
 
 
 if __name__ == '__main__':
-    #unittest.main()
     args = sys.argv[1:]
     parser = argparse.ArgumentParser()
     parser.add_argument('corpus', type=str)
