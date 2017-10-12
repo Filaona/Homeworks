@@ -130,5 +130,4 @@ if __name__ == '__main__':
     args = parser.parse_args(args)
     print(args)
     main(**vars(args))
-    #მე
-    #დედა
+    '''Georgian words: მე, დედა'''
